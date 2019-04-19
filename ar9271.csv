@@ -1,0 +1,126 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	6000					
+sym_height	6400					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	ar9271					
+device	ar9271					
+refdes	U?					
+footprint						
+description	usb wifi					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1		pwr	line	l		AVDD33_RX
+2		io	line	l		RF2INN
+3		io	line	l		RF2INP
+4		io	line	l		PABIAS2P
+5		io	line	l		RES
+6		io	line	l		RF2OUTN
+7		io	line	l		RF2OUTP
+8		io	line	l		RES
+9		io	line	l		PABIAS2N
+10		io	line	l		RST_L
+11		pwr	line	l		DVDD12
+12		io	line	l		GPIO11
+13		io	line	l		SWCOM0
+14		io	line	l		SWCOM1
+15		io	line	l		SWCOM2
+16		io	line	l		SWCOM3
+17		pwr	line	l		VDDP33
+18		io	line	b		GPIO5/SPISDO
+19		io	line	b		GPIO6/SPIS_L
+20		io	line	b		GPIO7/SPISCK
+21		io	line	b		GPIO8/SPISDI
+22		pwr	line	b		DVDD12
+23		io	line	b		GPIO3/EPRM_WP
+24		io	line	b		EPRM_SDA
+25		io	line	b		EPRM_SCK
+26		pwr	line	b		VDDP33
+27		pwr	line	b		DVDD12
+28		io	line	b		GPIO0/TMS
+29		io	line	b		GPIO1/TDI
+30		io	line	b		GPIO2/TCK
+31		io	line	b		GPIO4/TDO
+32		io	line	b		NC
+33		pwr	line	b		VDDP33
+34		io	line	b		NC
+51		io	line	r		NC
+50		io	line	r		NC
+49		io	line	r		GPIO10
+48		io	line	r		GPIO9
+47		pwr	line	r		VDDP33
+46		pwr	line	r		DVDD12
+45		io	line	r		GPIO13
+44		io	line	r		GPIO14
+43		pwr	line	r		DVDD12
+42		pwr	line	r		DVDD12
+41		pwr	line	r		VDD33
+40		io	line	r		DM
+39		io	line	r		TXRTUNE
+38		io	line	r		DP
+37		pwr	line	r		VDD33
+36		io	line	r		GPIO15
+35		io	line	r		GPIO12/SPIBOOT
+68		io	line	t		PDET
+67		io	line	t		XPABIAS
+66		io	line	t		NC
+65		io	line	t		NC
+64		io	line	t		NC
+63		io	line	t		NC
+62		io	line	t		BIASREF
+61		pwr	line	t		AVDD12_BB_SYNTH
+60		pwr	line	t		AVDD33_BB_SYNTH
+59		pwr	line	t		AVDD12ADC
+58		io	line	t		CTRL1
+57		io	line	t		CTRL2
+56		pwr	line	t		AVDD12_XTAL
+55		io	line	t		XTALI
+54		io	line	t		XTALO
+53		pwr	line	t		AVDD33_XTAL
+52		io	line	t		NC
+69		pwr	line	b		PAD

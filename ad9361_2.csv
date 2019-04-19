@@ -1,0 +1,201 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	6300					
+sym_height	24300					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	ad9361					
+device	ad9361					
+refdes	U?					
+footprint						
+description	rf transceiver					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+A9		io	line	l		TX2B_N
+A10		io	line	l		TX2B_P
+A7		io	line	l		TX2A_N
+A8		io	line	l		TX2A_P
+A1		io	line	l		RX2A_N
+A2		io	line	l		RX2A_P
+D1		io	line	l		RX2C_N
+C1		io	line	l		RX2C_P
+F1		io	line	l		RX2B_N
+E1		io	line	l		RX2B_P
+J1		io	line	l		RX1B_N
+H1		io	line	l		RX1B_P
+L1		io	line	l		RX1C_N
+K1		io	line	l		RX1C_P
+M2		io	line	l		RX1A_N
+M1		io	line	l		RX1A_P
+M8		io	line	l		TX1A_N
+M7		io	line	l		TX1A_P
+M10		io	line	l		TX1B_N
+M9		io	line	l		TX1B_P
+C5		io	line	t		CTRL_IN0
+C6		io	line	t		CTRL_IN1
+D6		io	line	t		CTRL_IN2
+D5		io	line	t		CTRL_IN3
+D4		io	line	t		CTRL_OUT0
+E4		io	line	t		CTRL_OUT1
+E5		io	line	t		CTRL_OUT2
+E6		io	line	t		CTRL_OUT3
+F6		io	line	t		CTRL_OUT4
+F5		io	line	t		CTRL_OUT5
+F4		io	line	t		CTRL_OUT6
+G4		io	line	t		CTRL_OUT7
+G5		io	line	t		EN_AGC
+B7		io	line	t		GPO_0
+B6		io	line	t		GPO_1
+B5		io	line	t		GPO_2
+B4		io	line	t		GPO_3
+H11		io	line	r		DATA_CLK_N
+G11		io	line	r		DATA_CLK_P
+G6		io	line	r		ENABLE
+G10		io	line	r		FB_CLK_N
+F10		io	line	r		FB_CLK_P
+E12		io	line	r		P0_D0/TX_D0_N
+D11		io	line	r		P0_D1/TX_D0_P
+F8		io	line	r		P0_D10/TX_D5_N
+E7		io	line	r		P0_D11/TX_D5_P
+E11		io	line	r		P0_D2/TX_D1_N
+D10		io	line	r		P0_D3/TX_D1_P
+E10		io	line	r		P0_D4/TX_D2_N
+D9		io	line	r		P0_D5/TX_D2_P
+E9		io	line	r		P0_D6/TX_D3_N
+D8		io	line	r		P0_D7/TX_D3_P
+E8		io	line	r		P0_D8/TX_D4_N
+D7		io	line	r		P0_D9/TX_D4_P
+K11		io	line	r		P1_D0/RX_D0_N
+J12		io	line	r		P1_D1/RX_D0_P
+J7		io	line	r		P1_D10/RX_D5_N
+H8		io	line	r		P1_D11/RX_D5_P
+K10		io	line	r		P1_D2/RX_D1_N
+J11		io	line	r		P1_D3/RX_D1_P
+K9		io	line	r		P1_D4/RX_D2_N
+J10		io	line	r		P1_D5/RX_D2_P
+K8		io	line	r		P1_D6/RX_D3_N
+J9		io	line	r		P1_D7/RX_D3_P
+K7		io	line	r		P1_D8/RX_D4_N
+J8		io	line	r		P1_D9/RX_D4_P
+G7		io	line	r		RX_FRAME_N
+G8		io	line	r		RX_FRAME_P
+H9		io	line	r		TX_FRAME_N
+G9		io	line	r		TX_FRAME_P
+H4		io	line	r		TXNRX
+C4		io	line	b		TEST/ENABLE
+J6		io	line	b		CLK_OUT
+H5		io	line	b		SYNC_IN
+J4		io	line	b		SPI_DI
+J5		io	line	b		SPI_CLK
+K6		io	line	b		SPI_ENB
+L6		io	line	b		SPI_DO
+K5		io	line	b		RESETB
+L5		io	line	b		AUXADC
+B3		io	line	b		AUXDAC1
+C3		io	line	b		AUXDAC2
+L4		io	line	l		RBIAS
+G1		io	line	l		RX_EXT_LO_IN
+A12		io	line	l		TX_EXT_LO_IN
+M5		io	line	l		TX_MON1
+A5		io	line	l		TX_MON2
+M12		io	line	l		XTALN
+M11		io	line	l		XTALP
+A4		pwr	line	l		VSSA
+B12		pwr	line	l		VSSA
+C12		pwr	line	l		VSSA
+H3		pwr	line	l		VSSA
+L2		pwr	line	l		VSSA
+A6		pwr	line	l		VSSA
+C2		pwr	line	l		VSSA
+F3		pwr	line	l		VSSA
+H6		pwr	line	l		VSSA
+L3		pwr	line	l		VSSA
+M4		pwr	line	l		VSSA
+B1		pwr	line	l		VSSA
+C7		pwr	line	l		VSSA
+C8		pwr	line	l		VSSA
+C9		pwr	line	l		VSSA
+C10		pwr	line	l		VSSA
+C11		pwr	line	l		VSSA
+H2		pwr	line	l		VSSA
+J2		pwr	line	l		VSSA
+L7		pwr	line	l		VSSA
+L8		pwr	line	l		VSSA
+L9		pwr	line	l		VSSA
+L10		pwr	line	l		VSSA
+L11		pwr	line	l		VSSA
+L12		pwr	line	l		VSSA
+K2		pwr	line	l		VSSA
+B2		pwr	line	l		VSSA
+M6		pwr	line	l		VSSA
+D12		pwr	line	r		VSSD
+F11		pwr	line	r		VSSD
+H10		pwr	line	r		VSSD
+F7		pwr	line	r		VSSD
+G12		pwr	line	r		VSSD
+K12		pwr	line	r		VSSD
+F9		pwr	line	r		VSSD
+H7		pwr	line	r		VSSD
+H12		pwr	line	r		VDD_INTERFACE
+B8		pwr	line	r		VDD_GPO
+G2		pwr	line	l		RX_VCO_LDO_OUT
+B11		pwr	line	l		TX_VCO_LDO_OUT
+G3		pwr	line	l		VDDA1P1_RX_VCO
+A11		pwr	line	l		VDDA1P1_TX_VCO
+K4		pwr	line	l		VDDA1P3_BB
+E2		pwr	line	l		VDDA1P3_RX_LO
+D2		pwr	line	l		VDDA1P3_RX_RF
+J3		pwr	line	l		VDDA1P3_RX_SYNTH
+D3		pwr	line	l		VDDA1P3_RX_TX
+F2		pwr	line	l		VDDA1P3_RX_VCO_LDO
+B9		pwr	line	l		VDDA1P3_TX_LO
+E3		pwr	line	l		VDDA1P3_TX_LO_BUFFER
+K3		pwr	line	l		VDDA1P3_TX_SYNTH
+B10		pwr	line	l		VDDA1P3_TX_VCO_LDO
+F12		pwr	line	l		VDDD1P3_DIG
+A3		io	line	r		NC
+M3		io	line	r		NC

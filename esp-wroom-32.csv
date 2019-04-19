@@ -1,0 +1,96 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	5800					
+sym_height	6900					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	esp-wroom-32					
+device	esp-wroom-32					
+refdes	U?					
+footprint						
+description	esp-wroom-32 wifi module					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+0		pwr	line	t		PAD
+1		pwr	line	l		GND
+2		pwr	line	l		VCC
+3		io	line	l		ChipPU
+4		io	line	l		IO36_ADC1.0
+5		io	line	l		IO39_ADC1.3
+6		io	line	l		IO34_ADC1.6
+7		io	line	l		IO35_ADC1.7
+8		io	line	l		IO32_ADC1.4
+9		io	line	l		IO33_ADC1.5
+10		io	line	l		IO25_ADC2.8
+11		io	line	l		IO26_ADC2.9
+12		io	line	l		IO27_ADC2.7
+13		io	line	l		IO14_ADC2.6
+14		pwr	line	l		IO12_ADC2.5
+15		io	line	b		GND
+16		io	line	b		IO13_ADC2.4
+17		io	line	b		RESERVED (IO9)
+18		io	line	b		RESERVED (IO10)
+19		io	line	b		RESERVED (IO11)
+20		io	line	b		RESERVED (IO6)
+21		io	line	b		RESERVED (IO7)
+22		io	line	b		RESERVED (IO8)
+23		io	line	b		IO15_ADC2.3_SDCMD
+24		io	line	b		IO2_ADC2.2
+38		pwr	line	r		GND
+37		io	line	r		IO23
+36		io	line	r		IO22
+35		io	line	r		IO1_TXD0_CLKOUT3
+34		io	line	r		IO3_RXD0_CLKOUT2
+33		io	line	r		IO21
+32		io	line	r		NC
+31		io	line	r		IO19
+30		io	line	r		IO18
+29		io	line	r		IO5
+28		io	line	r		IO17_TXD2
+27		io	line	r		IO16_RXD2
+26		io	line	r		IO4_ADC2.0
+25		io	line	r		IO0_ADC2.1_CLKOUT1

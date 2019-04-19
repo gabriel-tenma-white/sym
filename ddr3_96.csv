@@ -1,0 +1,153 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	2300					
+sym_height	17600					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	ddr3 96pin					
+device	ddr3 96pin					
+refdes	U?					
+footprint						
+description	ddr3 sdram					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+N3		io	line	r		A0
+P7		io	line	r		A1
+L7		io	line	r		A10/AP
+R7		io	line	r		A11
+N7		io	line	r		A12/BC
+T3		io	line	r		A13
+T7		io	line	r		A14
+P3		io	line	r		A2
+N2		io	line	r		A3
+P8		io	line	r		A4
+P2		io	line	r		A5
+R8		io	line	r		A6
+R2		io	line	r		A7
+T8		io	line	r		A8
+R3		io	line	r		A9
+M2		io	line	r		BA0
+N8		io	line	r		BA1
+M3		io	line	r		BA2
+K3		io	line	r		CASn
+J7		io	line	r		CK
+K7		io	line	r		CKn
+K9		io	line	r		CKE
+L2		io	line	r		CSn
+E7		io	line	r		DML
+D3		io	line	r		DMU
+E3		io	line	r		DQL0
+F7		io	line	r		DQL1
+F2		io	line	r		DQL2
+F8		io	line	r		DQL3
+H3		io	line	r		DQL4
+H8		io	line	r		DQL5
+G2		io	line	r		DQL6
+H7		io	line	r		DQL7
+F3		io	line	r		DQSL
+G3		io	line	r		DQSLn
+B7		io	line	r		DQSUn
+C7		io	line	r		DQSU
+D7		io	line	r		DQU0
+C3		io	line	r		DQU1
+C8		io	line	r		DQU2
+C2		io	line	r		DQU3
+A7		io	line	r		DQU4
+A2		io	line	r		DQU5
+B8		io	line	r		DQU6
+A3		io	line	r		DQU7
+J1		io	line	r		NC
+L1		io	line	r		NC
+M7		io	line	r		NC
+J9		io	line	r		NC
+L9		io	line	r		NC
+K1		io	line	r		ODT
+J3		io	line	r		RASn
+T2		io	line	r		RESETn
+N1		io	line	l		VDD
+R1		io	line	l		VDD
+B2		io	line	l		VDD
+K2		io	line	l		VDD
+G7		io	line	l		VDD
+K8		io	line	l		VDD
+D9		io	line	l		VDD
+N9		io	line	l		VDD
+R9		io	line	l		VDD
+A1		io	line	l		VDDQ
+C1		io	line	l		VDDQ
+F1		io	line	l		VDDQ
+D2		io	line	l		VDDQ
+H2		io	line	l		VDDQ
+A8		io	line	l		VDDQ
+C9		io	line	l		VDDQ
+E9		io	line	l		VDDQ
+H9		io	line	l		VDDQ
+M8		io	line	l		VREFCA
+H1		io	line	l		VREFDQ
+E1		io	line	l		VSS
+M1		io	line	l		VSS
+P1		io	line	l		VSS
+T1		io	line	l		VSS
+J2		io	line	l		VSS
+B3		io	line	l		VSS
+G8		io	line	l		VSS
+J8		io	line	l		VSS
+A9		io	line	l		VSS
+M9		io	line	l		VSS
+P9		io	line	l		VSS
+T9		io	line	l		VSS
+B1		io	line	l		VSSQ
+D1		io	line	l		VSSQ
+G1		io	line	l		VSSQ
+E2		io	line	l		VSSQ
+D8		io	line	l		VSSQ
+E8		io	line	l		VSSQ
+B9		io	line	l		VSSQ
+F9		io	line	l		VSSQ
+G9		io	line	l		VSSQ
+L3		io	line	r		WEn
+L8		io	line	r		ZQ

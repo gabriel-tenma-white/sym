@@ -1,0 +1,106 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	5000					
+sym_height	5100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	RTL8211E					
+device	RTL8211E					
+refdes	U?					
+footprint						
+description	ethernet phy					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1		io	line	l		MDI0+
+2		io	line	l		MDI0-
+3		io	line	l		AVDD10
+4		io	line	l		MDI1+
+5		io	line	l		MDI1-
+6		io	line	l		AVDD33
+7		io	line	l		MDI2+
+8		io	line	l		MDI2-
+9		io	line	l		AVDD10
+10		io	line	l		MDI3+
+11		io	line	l		MDI3-
+12		io	line	l		NC
+13		io	line	b		RXCTL_PHY_AD
+14		io	line	b		RXD0_SELRGV
+15		io	line	b		DVDDIO
+16		io	line	b		RXD1_TXDLY
+17		io	line	b		RXD2_AN0
+18		io	line	b		RXD3_AN1
+19		io	line	b		RXC
+20		io	line	b		INTB
+21		io	line	b		DVDDIO
+22		io	line	b		TXC
+23		io	line	b		TXD0
+24		io	line	b		TXD1
+36		io	line	r		DVDD10
+35		io	line	r		LED1_PHY_AD1
+34		io	line	r		LED0_PHY_AD0
+33		io	line	r		PMEB
+32		io	line	r		LED2_RXDLY
+31		io	line	r		MDIO
+30		io	line	r		MDC
+29		io	line	r		PHYRSTB
+28		io	line	r		DVDD10
+27		io	line	r		TXCTL
+26		io	line	r		TXD3
+25		io	line	r		TXD2
+0		io	line	t		PAD
+48		io	line	t		REG_OUT
+47		io	line	t		GND
+46		io	line	t		CLK125
+45		io	line	t		VDDREG
+44		io	line	t		VDDREG
+43		io	line	t		CKXTAL2
+42		io	line	t		CKXTAL1
+41		io	line	t		AVDD33
+40		io	line	t		AVDD10
+39		io	line	t		RSET
+38		io	line	t		ENSWREG
+37		io	line	t		DVDD33

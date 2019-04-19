@@ -1,0 +1,186 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	12000					
+sym_height	12100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	allwinner_v3s					
+device	allwinner_v3s					
+refdes	U?					
+footprint						
+description	arm soc					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1		io	line	l		PG4/SDC1_D2/PG_EINT4
+2		io	line	l		PG3/SDC1_D1/PG_EINT3
+3		io	line	l		PG2/SDC1_D0/PG_EINT2
+4		io	line	l		PG1/SDC1_CMD/PG_EINT1
+5		io	line	l		PG0/SDC1_CLK/PG_EINT0
+6		io	line	l		PE24/LCD_D23
+7		io	line	l		PE23/LCD_D22
+8		io	line	l		PE22/CSI_SDA/TWI1_SDA/UART1_RX
+9		io	line	l		PE21/CSI_SCK/TWI1_SCK/UART1_TX
+10		io	line	l		PE20/CSI_FIELD/CSI_MIPI_MCLK
+11		io	line	l		PE19/CSI_D15/LCD_D21
+12		pwr	line	l		VCC-PE0
+13		io	line	l		PE18/CSI_D14/LCD_D20
+14		io	line	l		PE17/CSI_D13/LCD_D19
+15		io	line	l		PE16/CSI_D12/LCD_D18
+16		io	line	l		PE15/CSI_D11/LCD_D15
+17		io	line	l		PE14/CSI_D10/LCD_D14
+18		io	line	l		PE13/CSI_D9/LCD_D13
+19		pwr	line	l		VDD-SYS3
+20		pwr	line	l		VDD-CPU3
+21		pwr	line	l		VDD-CPU2
+22		io	line	l		PE12/CSI_D8/LCD_D12
+23		io	line	l		PE11/CSI_D7/LCD_D11
+24		io	line	l		PE10/CSI_D6/LCD_D10
+25		pwr	line	l		VDD-CPU1
+26		pwr	line	l		VDD-CPU0
+27		io	line	l		PE9/CSI_D5/LCD_D7
+28		io	line	l		PE8/CSI_D4/LCD_D6
+29		pwr	line	l		VCC-PE1
+30		io	line	l		PE7/CSI_D3/LCD_D5
+31		io	line	l		PE6/CSI_D2/LCD_D4
+32		io	line	l		PE5/CSI_D1/LCD_D3
+33		io	line	b		PE4/CSI_D0/LCD_D2
+34		io	line	b		PE3/CSI_VSYNC/LCD_VSYNC
+35		io	line	b		PE2/CSI_HSYNC/LCD_HSYNC
+36		io	line	b		PE1/CSI_MCLK/LCD_DE
+37		io	line	b		PE0/CSI_PCLK/LCD_CLK
+38		pwr	line	b		VDD-CPU4
+39		io	line	b		PB0/UART2_TX/PB_EINT0
+40		io	line	b		PB1/UART2_RX/PB_EINT1
+41		io	line	b		PB2/UART2_RTS/PB_EINT2
+42		io	line	b		PB3/UART2_CTS/PB_EINT3
+43		io	line	b		PB4/PWM0/PB_EINT4
+44		io	line	b		PB5/PWM1/PB_EINT5
+45		io	line	b		PB6/TWI0_SCK/PB_EINT6
+46		io	line	b		PB7/TWI0_SDA/PB_EINT7
+47		pwr	line	b		VDD-CPU5
+48		io	line	b		PB8/TWI1_SCK/UART0_TX/PB_EINT8
+49		io	line	b		PB9/TWI1_SDA/UART0_RX/PB_EINT9
+50		pwr	line	b		VCC-IO3
+51		pwr	line	b		VDD-CPU6
+52		io	line	b		PC0/SDC2_CLK/SPI_MISO
+53		io	line	b		PC1/SDC2_CMD/SPI_CLK
+54		io	line	b		PC2/SDC2_RST/SPI_CS
+55		io	line	b		PC3/SDC2_D0/SPI_MOSI
+56		pwr	line	b		VDD-CPU7
+57		pwr	line	b		VCC-IO2
+58		pwr	line	b		VDD-SYS4
+59		pwr	line	b		VCC-DRAM8
+60		pwr	line	b		VCC-DRAM9
+61		pwr	line	b		VCC-DRAM10
+62		pwr	line	b		VCC-DRAM11
+63		pwr	line	b		SVREF1
+64		pwr	line	b		VDD-SYS5
+96		io	line	r		X32KIN
+95		io	line	r		X32KOUT
+94		io	line	r		EPHY-RTX
+93		io	line	r		EPHY-VCC
+92		io	line	r		EPHY-TXP
+91		io	line	r		EPHY-TXN
+90		io	line	r		EPHY-RXP
+89		io	line	r		EPHY-RXN
+88		io	line	r		EPHY-VDD
+87		io	line	r		MCSI-CKN
+86		io	line	r		MCSI-CKP
+85		pwr	line	r		VCC-MCSI
+84		io	line	r		MCSI-D1N
+83		io	line	r		MCSI-D1P
+82		io	line	r		MCSI-D0N
+81		io	line	r		MCSI-D0P
+80		pwr	line	r		VDD-SYS0
+79		pwr	line	r		VCC-DRAM7
+78		io	line	r		EPHY-SPD-LED
+77		io	line	r		EPHY-LINK-LED
+76		pwr	line	r		VCC-PLL
+75		io	line	r		X24MIN
+74		io	line	r		X24MOUT
+73		io	line	r		SZQ
+72		pwr	line	r		VCC-DRAM6
+71		pwr	line	r		SVREF0
+70		pwr	line	r		VCC-DRAM5
+69		pwr	line	r		VCC-DRAM4
+68		pwr	line	r		VCC-DRAM3
+67		pwr	line	r		VCC-DRAM2
+66		pwr	line	r		VCC-DRAM1
+65		pwr	line	r		VCC-DRAM0
+128		io	line	t		PG5/SDC1_D3/PG_EINT5
+127		pwr	line	t		VCC-IO1
+126		pwr	line	t		VDD-SYS2
+125		io	line	t		HPCOM
+124		io	line	t		HPCOMFB
+123		io	line	t		HPVCCBP
+122		io	line	t		HPVCCIN
+121		io	line	t		HPOUTL
+120		io	line	t		HPOUTR
+119		io	line	t		HBIAS
+118		io	line	t		VRA2
+117		io	line	t		VRA1
+116		pwr	line	t		AGND
+115		pwr	line	t		AVCC
+114		io	line	t		MICIN1N
+113		io	line	t		MICIN1P
+112		io	line	t		LRADC0
+111		io	line	t		USB-DP
+110		io	line	t		USB-DM
+109		pwr	line	t		VCC-USB
+108		pwr	line	t		VDD-SYS1
+107		io	line	t		PF0/SDC0_D1/JTAG_MS1
+106		io	line	t		PF1/SDC0_D0/JTAG_DI1
+105		io	line	t		PF2/SDC0_CLK/UART0_TX
+104		pwr	line	t		VCC-IO0
+103		io	line	t		PF3/SDC0_CMD/JTAG_DO1
+102		io	line	t		PF4/SDC0_D3/UART0_RX
+101		io	line	t		PF5/SDC0_D2/JTAG_CK1
+100		io	line	t		PF6
+99		io	line	t		RESET
+98		pwr	line	t		VCC-RTC
+97		pwr	line	t		RTC-VIO
+129		pwr	line	b		PAD

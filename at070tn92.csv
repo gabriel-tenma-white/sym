@@ -1,0 +1,107 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1000					
+sym_height	17300					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	ad070tn92					
+device	ad070tn92					
+refdes	U?					
+footprint						
+description	lcd connector					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1		io	line	r		Vled+
+2		io	line	r		Vled+
+3		io	line	r		Vled-
+4		io	line	r		Vled-
+5		io	line	r		GND
+6		io	line	r		Vcom
+7		io	line	r		DVdd
+8		io	line	r		MODE
+9		io	line	r		DE
+10		io	line	r		VS
+11		io	line	r		HS
+12		io	line	r		B7
+13		io	line	r		B6
+14		io	line	r		B5
+15		io	line	r		B4
+16		io	line	r		B3
+17		io	line	r		B2
+18		io	line	r		B1
+19		io	line	r		B0
+20		io	line	r		G7
+21		io	line	r		G6
+22		io	line	r		G5
+23		io	line	r		G4
+24		io	line	r		G3
+25		io	line	r		G2
+26		io	line	r		G1
+27		io	line	r		G0
+28		io	line	r		R7
+29		io	line	r		R6
+30		io	line	r		R5
+31		io	line	r		R4
+32		io	line	r		R3
+33		io	line	r		R2
+34		io	line	r		R1
+35		io	line	r		R0
+36		io	line	r		GND
+37		io	line	r		DCLK
+38		io	line	r		GND
+39		io	line	r		LR
+40		io	line	r		UD
+41		io	line	r		VGH
+42		io	line	r		VGL
+43		io	line	r		AVdd
+44		io	line	r		RESET
+45		io	line	r		NC
+46		io	line	r		Vcom
+47		io	line	r		DITHB
+48		io	line	r		GND
+49		io	line	r		NC
+50		io	line	r		NC
