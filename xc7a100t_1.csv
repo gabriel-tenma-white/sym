@@ -1,0 +1,153 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	38000					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+AE15		pwr	line	r		GND
+B15		pwr	line	r		GND
+A10		pwr	line	r		GND
+A12		pwr	line	r		GND
+A14		pwr	line	r		GND
+A16		pwr	line	r		GND
+A26		pwr	line	r		GND
+A6		pwr	line	r		GND
+A8		pwr	line	r		GND
+AA14		pwr	line	r		GND
+AA16		pwr	line	r		GND
+AA26		pwr	line	r		GND
+AA6		pwr	line	r		GND
+AB10		pwr	line	r		GND
+AB12		pwr	line	r		GND
+AB14		pwr	line	r		GND
+AB23		pwr	line	r		GND
+AB3		pwr	line	r		GND
+AA9		pwr	line	r		GND
+AB8		pwr	line	r		GND
+AC15		pwr	line	r		GND
+AC20		pwr	line	r		GND
+AC7		pwr	line	r		GND
+AD11		pwr	line	r		GND
+AD13		pwr	line	r		GND
+AD6		pwr	line	r		GND
+AD9		pwr	line	r		GND
+AD16		pwr	line	r		GND
+AE24		pwr	line	r		GND
+AE4		pwr	line	r		GND
+AE6		pwr	line	r		GND
+AF1		pwr	line	r		GND
+AF10		pwr	line	r		GND
+AF12		pwr	line	r		GND
+AF14		pwr	line	r		GND
+AF16		pwr	line	r		GND
+AF21		pwr	line	r		GND
+AF6		pwr	line	r		GND
+AF8		pwr	line	r		GND
+B16		pwr	line	r		GND
+B23		pwr	line	r		GND
+B3		pwr	line	r		GND
+B6		pwr	line	r		GND
+C11		pwr	line	r		GND
+C13		pwr	line	r		GND
+C16		pwr	line	r		GND
+C20		pwr	line	r		GND
+C6		pwr	line	r		GND
+C9		pwr	line	r		GND
+D15		pwr	line	r		GND
+D17		pwr	line	r		GND
+D7		pwr	line	r		GND
+E10		pwr	line	r		GND
+E12		pwr	line	r		GND
+E14		pwr	line	r		GND
+E24		pwr	line	r		GND
+E4		pwr	line	r		GND
+E7		pwr	line	r		GND
+E8		pwr	line	r		GND
+E9		pwr	line	r		GND
+F1		pwr	line	r		GND
+F14		pwr	line	r		GND
+F21		pwr	line	r		GND
+F9		pwr	line	r		GND
+G10		pwr	line	r		GND
+G11		pwr	line	r		GND
+AB9		pwr	line	r		GND
+G13		pwr	line	r		GND
+Y12		pwr	line	r		GND
+G18		pwr	line	r		GND
+G12		pwr	line	r		GND
+H25		pwr	line	r		GND
+H5		pwr	line	r		GND
+J12		pwr	line	r		GND
+J2		pwr	line	r		GND
+J22		pwr	line	r		GND
+K11		pwr	line	r		GND
+K13		pwr	line	r		GND
+K19		pwr	line	r		GND
+K9		pwr	line	r		GND
+L10		pwr	line	r		GND
+L12		pwr	line	r		GND
+L16		pwr	line	r		GND
+L26		pwr	line	r		GND
+L6		pwr	line	r		GND
+M13		pwr	line	r		GND
+M23		pwr	line	r		GND
+M3		pwr	line	r		GND
+M9		pwr	line	r		GND
+N10		pwr	line	r		GND
+N20		pwr	line	r		GND
+P13		pwr	line	r		GND
+P17		pwr	line	r		GND
+P7		pwr	line	r		GND
+P9		pwr	line	r		GND
+R10		pwr	line	r		GND
+R24		pwr	line	r		GND
+R4		pwr	line	r		GND
+T1		pwr	line	r		GND
+T11		pwr	line	r		GND
+T13		pwr	line	r		GND
+T21		pwr	line	r		GND
+T9		pwr	line	r		GND
+U10		pwr	line	r		GND
+U12		pwr	line	r		GND
+U18		pwr	line	r		GND
+U8		pwr	line	r		GND
+V15		pwr	line	r		GND
+V25		pwr	line	r		GND
+V5		pwr	line	r		GND
+E15		pwr	line	r		GND
+W12		pwr	line	r		GND
+W2		pwr	line	r		GND
+W22		pwr	line	r		GND
+Y11		pwr	line	r		GND
+Y10		pwr	line	r		GND
+Y13		pwr	line	r		GND
+Y19		pwr	line	r		GND
+V13		pwr	line	r		GND

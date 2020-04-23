@@ -1,0 +1,84 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	11100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+A1		pwr	line	l		VCCO_35
+C5		pwr	line	l		VCCO_35
+D2		pwr	line	l		VCCO_35
+F6		pwr	line	l		VCCO_35
+G3		pwr	line	l		VCCO_35
+J7		pwr	line	l		VCCO_35
+K4		pwr	line	l		VCCO_34
+L1		pwr	line	l		VCCO_34
+M8		pwr	line	l		VCCO_34
+N5		pwr	line	l		VCCO_34
+P2		pwr	line	l		VCCO_34
+T6		pwr	line	l		VCCO_34
+AA1		pwr	line	l		VCCO_33
+AC5		pwr	line	l		VCCO_33
+AD2		pwr	line	l		VCCO_33
+U3		pwr	line	l		VCCO_33
+W7		pwr	line	l		VCCO_33
+Y4		pwr	line	l		VCCO_33
+A21		pwr	line	r		VCCO_16
+B18		pwr	line	r		VCCO_16
+C25		pwr	line	r		VCCO_16
+D22		pwr	line	r		VCCO_16
+E19		pwr	line	r		VCCO_16
+F16		pwr	line	r		VCCO_16
+F26		pwr	line	r		VCCO_15
+G23		pwr	line	r		VCCO_15
+H20		pwr	line	r		VCCO_15
+J17		pwr	line	r		VCCO_15
+K14		pwr	line	r		VCCO_15
+M18		pwr	line	r		VCCO_15
+K24		pwr	line	r		VCCO_14
+L21		pwr	line	r		VCCO_14
+N15		pwr	line	r		VCCO_14
+N25		pwr	line	r		VCCO_14
+P22		pwr	line	r		VCCO_14
+R19		pwr	line	r		VCCO_14
+AC25		pwr	line	r		VCCO_13
+T16		pwr	line	r		VCCO_13
+T26		pwr	line	r		VCCO_13
+U23		pwr	line	r		VCCO_13
+V20		pwr	line	r		VCCO_13
+Y24		pwr	line	r		VCCO_13
+AA21		pwr	line	r		VCCO_12
+AB18		pwr	line	r		VCCO_12
+AD22		pwr	line	r		VCCO_12
+AE19		pwr	line	r		VCCO_12
+AF26		pwr	line	r		VCCO_12
+W17		pwr	line	r		VCCO_12
+Y14		pwr	line	r		VCCO_0
+W11		pwr	line	r		VCCO_0

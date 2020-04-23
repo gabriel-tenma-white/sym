@@ -1,0 +1,55 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	6600					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+P11		io	line	r		VN_0
+N12		io	line	r		VP_0
+W10		io	line	r		DONE_0
+H12		io	line	r		TCK_0
+G14		io	line	r		VCCBATT_0
+P12		io	line	r		VREFP_0
+M11		io	line	r		GNDADC_0
+M12		io	line	r		VCCADC_0
+R12		io	line	r		DXP_0
+H13		io	line	r		CCLK_0
+N11		io	line	r		VREFN_0
+R11		io	line	r		DXN_0
+J10		io	line	r		TDO_0
+H10		io	line	r		TDI_0
+V11		io	line	r		INIT_B_0
+Y9		io	line	r		M1_0
+AB7		io	line	r		M0_0
+H11		io	line	r		TMS_0
+AE16		io	line	r		PROGRAM_B_0
+AB15		io	line	r		CFGBVS_0
+W9		io	line	r		M2_0

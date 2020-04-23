@@ -1,0 +1,134 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	31100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+AA15		io	line	r		NC
+AA17		io	line	r		NC
+AA18		io	line	r		NC
+AA19		io	line	r		NC
+AA2		io	line	r		NC
+AA20		io	line	r		NC
+AA3		io	line	r		NC
+AA4		io	line	r		NC
+AA5		io	line	r		NC
+AA7		io	line	r		NC
+AA8		io	line	r		NC
+AB1		io	line	r		NC
+AB16		io	line	r		NC
+AB17		io	line	r		NC
+AB19		io	line	r		NC
+AB2		io	line	r		NC
+AB20		io	line	r		NC
+AB21		io	line	r		NC
+AB22		io	line	r		NC
+AB4		io	line	r		NC
+AB5		io	line	r		NC
+AB6		io	line	r		NC
+AC1		io	line	r		NC
+AC16		io	line	r		NC
+AC17		io	line	r		NC
+AC18		io	line	r		NC
+AC19		io	line	r		NC
+AC2		io	line	r		NC
+AC21		io	line	r		NC
+AC22		io	line	r		NC
+AC23		io	line	r		NC
+AC3		io	line	r		NC
+AC4		io	line	r		NC
+AC6		io	line	r		NC
+AD1		io	line	r		NC
+AD17		io	line	r		NC
+AD18		io	line	r		NC
+AD19		io	line	r		NC
+AD20		io	line	r		NC
+AD21		io	line	r		NC
+AD23		io	line	r		NC
+AD24		io	line	r		NC
+AD25		io	line	r		NC
+AD26		io	line	r		NC
+AD3		io	line	r		NC
+AD4		io	line	r		NC
+AD5		io	line	r		NC
+AE1		io	line	r		NC
+AE17		io	line	r		NC
+AE18		io	line	r		NC
+AE2		io	line	r		NC
+AE20		io	line	r		NC
+AE21		io	line	r		NC
+AE22		io	line	r		NC
+AE23		io	line	r		NC
+AE25		io	line	r		NC
+AE26		io	line	r		NC
+AE3		io	line	r		NC
+AE5		io	line	r		NC
+AF17		io	line	r		NC
+AF18		io	line	r		NC
+AF19		io	line	r		NC
+AF2		io	line	r		NC
+AF20		io	line	r		NC
+AF22		io	line	r		NC
+AF23		io	line	r		NC
+AF24		io	line	r		NC
+AF25		io	line	r		NC
+AF3		io	line	r		NC
+AF4		io	line	r		NC
+AF5		io	line	r		NC
+U7		io	line	r		NC
+V1		io	line	r		NC
+V2		io	line	r		NC
+V3		io	line	r		NC
+V4		io	line	r		NC
+V6		io	line	r		NC
+V7		io	line	r		NC
+V8		io	line	r		NC
+V9		io	line	r		NC
+W1		io	line	r		NC
+W14		io	line	r		NC
+W15		io	line	r		NC
+W16		io	line	r		NC
+W3		io	line	r		NC
+W4		io	line	r		NC
+W5		io	line	r		NC
+W6		io	line	r		NC
+W8		io	line	r		NC
+Y1		io	line	r		NC
+Y15		io	line	r		NC
+Y16		io	line	r		NC
+Y17		io	line	r		NC
+Y18		io	line	r		NC
+Y2		io	line	r		NC
+Y3		io	line	r		NC
+Y5		io	line	r		NC
+Y6		io	line	r		NC
+Y7		io	line	r		NC
+Y8		io	line	r		NC

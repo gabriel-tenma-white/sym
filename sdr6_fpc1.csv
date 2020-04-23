@@ -1,0 +1,107 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1000					
+sym_height	17300					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	sdr5_fpc1					
+device	fpc50					
+refdes	U?					
+footprint						
+description	sdr5 baseboard fpc interface 1					
+documentation						
+						
+numslots	0					
+dist-license						
+use-license						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1		io	line	r		VCC5
+2		io	line	r		GND
+3		io	line	r		VCC3P3
+4		io	line	r		VCCIO
+5		io	line	r		GND
+6		io	line	r		IO45
+7		io	line	r		GND
+8		io	line	r		IO44
+9		io	line	r		GND
+10		io	line	r		IO43
+11		io	line	r		GND
+12		io	line	r		IO42
+13		io	line	r		GND
+14		io	line	r		IO41
+15		io	line	r		GND
+16		io	line	r		IO40
+17		io	line	r		GND
+18		io	line	r		IO39
+19		io	line	r		GND
+20		io	line	r		IO38
+21		io	line	r		GND
+22		io	line	r		IO37
+23		io	line	r		GND
+24		io	line	r		IO36
+25		io	line	r		GND
+26		io	line	r		IO35
+27		io	line	r		GND
+28		io	line	r		IO34
+29		io	line	r		GND
+30		io	line	r		IO33
+31		io	line	r		GND
+32		io	line	r		IO32
+33		io	line	r		GND
+34		io	line	r		IO31
+35		io	line	r		GND
+36		io	line	r		IO30
+37		io	line	r		GND
+38		io	line	r		IO29
+39		io	line	r		GND
+40		io	line	r		IO28
+41		io	line	r		GND
+42		io	line	r		IO27
+43		io	line	r		GND
+44		io	line	r		IO26
+45		io	line	r		GND
+46		io	line	r		IO25
+47		io	line	r		GND
+48		io	line	r		IO24
+49		io	line	r		GND
+50		io	line	r		IO23

@@ -1,0 +1,252 @@
+v 20060113 1
+P 2200 7300 1900 7300 1 0 0
+{
+T 2000 7350 5 8 1 1 0 0 1
+pinnumber=D11
+T 2000 7250 5 8 0 1 0 2 1
+pinseq=1
+T 1850 7300 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G11
+T 1850 7300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 7000 1900 7000 1 0 0
+{
+T 2000 7050 5 8 1 1 0 0 1
+pinnumber=D13
+T 2000 6950 5 8 0 1 0 2 1
+pinseq=2
+T 1850 7000 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G11
+T 1850 7000 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 6700 1900 6700 1 0 0
+{
+T 2000 6750 5 8 1 1 0 0 1
+pinnumber=D9
+T 2000 6650 5 8 0 1 0 2 1
+pinseq=3
+T 1850 6700 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G11
+T 1850 6700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 6400 1900 6400 1 0 0
+{
+T 2000 6450 5 8 1 1 0 0 1
+pinnumber=F10
+T 2000 6350 5 8 0 1 0 2 1
+pinseq=4
+T 1850 6400 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G11
+T 1850 6400 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 6100 1900 6100 1 0 0
+{
+T 2000 6150 5 8 1 1 0 0 1
+pinnumber=F12
+T 2000 6050 5 8 0 1 0 2 1
+pinseq=5
+T 1850 6100 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G11
+T 1850 6100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 5800 1900 5800 1 0 0
+{
+T 2000 5850 5 8 1 1 0 0 1
+pinnumber=AA10
+T 2000 5750 5 8 0 1 0 2 1
+pinseq=6
+T 1850 5800 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G10
+T 1850 5800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 5500 1900 5500 1 0 0
+{
+T 2000 5550 5 8 1 1 0 0 1
+pinnumber=AA12
+T 2000 5450 5 8 0 1 0 2 1
+pinseq=7
+T 1850 5500 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G10
+T 1850 5500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 5200 1900 5200 1 0 0
+{
+T 2000 5250 5 8 1 1 0 0 1
+pinnumber=AC11
+T 2000 5150 5 8 0 1 0 2 1
+pinseq=8
+T 1850 5200 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G10
+T 1850 5200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 4900 1900 4900 1 0 0
+{
+T 2000 4950 5 8 1 1 0 0 1
+pinnumber=AC13
+T 2000 4850 5 8 0 1 0 2 1
+pinseq=9
+T 1850 4900 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G10
+T 1850 4900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 4600 1900 4600 1 0 0
+{
+T 2000 4650 5 8 1 1 0 0 1
+pinnumber=AC9
+T 2000 4550 5 8 0 1 0 2 1
+pinseq=10
+T 1850 4600 9 8 1 1 0 6 1
+pinlabel=MGTAVCC_G10
+T 1850 4600 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 4300 1900 4300 1 0 0
+{
+T 2000 4350 5 8 1 1 0 0 1
+pinnumber=B10
+T 2000 4250 5 8 0 1 0 2 1
+pinseq=11
+T 1850 4300 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 4300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 4000 1900 4000 1 0 0
+{
+T 2000 4050 5 8 1 1 0 0 1
+pinnumber=B12
+T 2000 3950 5 8 0 1 0 2 1
+pinseq=12
+T 1850 4000 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 4000 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 3700 1900 3700 1 0 0
+{
+T 2000 3750 5 8 1 1 0 0 1
+pinnumber=B14
+T 2000 3650 5 8 0 1 0 2 1
+pinseq=13
+T 1850 3700 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 3700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 3400 1900 3400 1 0 0
+{
+T 2000 3450 5 8 1 1 0 0 1
+pinnumber=B8
+T 2000 3350 5 8 0 1 0 2 1
+pinseq=14
+T 1850 3400 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 3400 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 3100 1900 3100 1 0 0
+{
+T 2000 3150 5 8 1 1 0 0 1
+pinnumber=C15
+T 2000 3050 5 8 0 1 0 2 1
+pinseq=15
+T 1850 3100 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 3100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 2800 1900 2800 1 0 0
+{
+T 2000 2850 5 8 1 1 0 0 1
+pinnumber=C7
+T 2000 2750 5 8 0 1 0 2 1
+pinseq=16
+T 1850 2800 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G11
+T 1850 2800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 2500 1900 2500 1 0 0
+{
+T 2000 2550 5 8 1 1 0 0 1
+pinnumber=AD15
+T 2000 2450 5 8 0 1 0 2 1
+pinseq=17
+T 1850 2500 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 2500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 2200 1900 2200 1 0 0
+{
+T 2000 2250 5 8 1 1 0 0 1
+pinnumber=AD7
+T 2000 2150 5 8 0 1 0 2 1
+pinseq=18
+T 1850 2200 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 2200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 1900 1900 1900 1 0 0
+{
+T 2000 1950 5 8 1 1 0 0 1
+pinnumber=AE10
+T 2000 1850 5 8 0 1 0 2 1
+pinseq=19
+T 1850 1900 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 1900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 1600 1900 1600 1 0 0
+{
+T 2000 1650 5 8 1 1 0 0 1
+pinnumber=AE12
+T 2000 1550 5 8 0 1 0 2 1
+pinseq=20
+T 1850 1600 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 1600 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 1300 1900 1300 1 0 0
+{
+T 2000 1350 5 8 1 1 0 0 1
+pinnumber=AE14
+T 2000 1250 5 8 0 1 0 2 1
+pinseq=21
+T 1850 1300 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 1300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2200 1000 1900 1000 1 0 0
+{
+T 2000 1050 5 8 1 1 0 0 1
+pinnumber=AE8
+T 2000 950 5 8 0 1 0 2 1
+pinseq=22
+T 1850 1000 9 8 1 1 0 6 1
+pinlabel=MGTAVTT_G10
+T 1850 1000 5 8 0 1 0 8 1
+pintype=pwr
+}
+B 400 100 1500 8100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1900 8300 8 10 1 1 0 6 1
+refdes=U?
+T 400 8300 9 10 1 0 0 0 1
+xc7a100t-676
+T 400 8500 5 10 0 0 0 0 1
+device=xc7a100t-676
+T 400 8700 5 10 0 0 0 0 1
+description=fpga

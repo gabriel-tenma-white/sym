@@ -1,0 +1,84 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1900					
+sym_height	15100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+N8		io	line	l		IO_0_34
+K3		io	line	l		IO_L1P_T0_34
+J3		io	line	l		IO_L1N_T0_34
+M7		io	line	l		IO_L2P_T0_34
+L7		io	line	l		IO_L2N_T0_34
+M4		io	line	l		IO_L3P_T0_DQS_34
+L4		io	line	l		IO_L3N_T0_DQS_34
+L5		io	line	l		IO_L4P_T0_34
+K5		io	line	l		IO_L4N_T0_34
+N7		io	line	l		IO_L5P_T0_34
+N6		io	line	l		IO_L5N_T0_34
+M6		io	line	l		IO_L6P_T0_34
+M5		io	line	l		IO_L6N_T0_VREF_34
+K1		io	line	l		IO_L7P_T1_34
+J1		io	line	l		IO_L7N_T1_34
+L3		io	line	l		IO_L8P_T1_34
+K2		io	line	l		IO_L8N_T1_34
+N1		io	line	l		IO_L9P_T1_DQS_34
+M1		io	line	l		IO_L9N_T1_DQS_34
+H2		io	line	l		IO_L10P_T1_34
+H1		io	line	l		IO_L10N_T1_34
+M2		io	line	l		IO_L11P_T1_SRCC_34
+L2		io	line	l		IO_L11N_T1_SRCC_34
+N3		io	line	l		IO_L12P_T1_MRCC_34
+N2		io	line	l		IO_L12N_T1_MRCC_34
+R3		io	line	l		IO_L13P_T2_MRCC_34
+P3		io	line	l		IO_L13N_T2_MRCC_34
+P4		io	line	l		IO_L14P_T2_SRCC_34
+N4		io	line	l		IO_L14N_T2_SRCC_34
+R1		io	line	l		IO_L15P_T2_DQS_34
+P1		io	line	l		IO_L15N_T2_DQS_34
+T4		io	line	l		IO_L16P_T2_34
+T3		io	line	l		IO_L16N_T2_34
+T2		io	line	l		IO_L17P_T2_34
+R2		io	line	l		IO_L17N_T2_34
+U2		io	line	l		IO_L18P_T2_34
+U1		io	line	l		IO_L18N_T2_34
+P6		io	line	l		IO_L19P_T3_34
+P5		io	line	l		IO_L19N_T3_VREF_34
+T5		io	line	l		IO_L20P_T3_34
+R5		io	line	l		IO_L20N_T3_34
+U6		io	line	l		IO_L21P_T3_DQS_34
+U5		io	line	l		IO_L21N_T3_DQS_34
+R8		io	line	l		IO_L22P_T3_34
+P8		io	line	l		IO_L22N_T3_34
+R7		io	line	l		IO_L23P_T3_34
+R6		io	line	l		IO_L23N_T3_34
+T8		io	line	l		IO_L24P_T3_34
+T7		io	line	l		IO_L24N_T3_34
+U4		io	line	l		IO_25_34

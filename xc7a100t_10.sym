@@ -1,0 +1,472 @@
+v 20060113 1
+P 2200 12800 1900 12800 1 0 0
+{
+T 2000 12850 5 8 1 1 0 0 1
+pinnumber=B9
+T 2000 12750 5 8 0 1 0 2 1
+pinseq=1
+T 1850 12800 9 8 1 1 0 6 1
+pinlabel=MGTPTXP2_216
+T 1850 12800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 12500 1900 12500 1 0 0
+{
+T 2000 12550 5 8 1 1 0 0 1
+pinnumber=D10
+T 2000 12450 5 8 0 1 0 2 1
+pinseq=2
+T 1850 12500 9 8 1 1 0 6 1
+pinlabel=MGTPTXP3_216
+T 1850 12500 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 12200 1900 12200 1 0 0
+{
+T 2000 12250 5 8 1 1 0 0 1
+pinnumber=B11
+T 2000 12150 5 8 0 1 0 2 1
+pinseq=3
+T 1850 12200 9 8 1 1 0 6 1
+pinlabel=MGTPRXP0_216
+T 1850 12200 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 11900 1900 11900 1 0 0
+{
+T 2000 11950 5 8 1 1 0 0 1
+pinnumber=D12
+T 2000 11850 5 8 0 1 0 2 1
+pinseq=4
+T 1850 11900 9 8 1 1 0 6 1
+pinlabel=MGTPRXP3_216
+T 1850 11900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 11600 1900 11600 1 0 0
+{
+T 2000 11650 5 8 1 1 0 0 1
+pinnumber=B13
+T 2000 11550 5 8 0 1 0 2 1
+pinseq=5
+T 1850 11600 9 8 1 1 0 6 1
+pinlabel=MGTPRXP2_216
+T 1850 11600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 11300 1900 11300 1 0 0
+{
+T 2000 11350 5 8 1 1 0 0 1
+pinnumber=D14
+T 2000 11250 5 8 0 1 0 2 1
+pinseq=6
+T 1850 11300 9 8 1 1 0 6 1
+pinlabel=MGTPRXP1_216
+T 1850 11300 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 11000 1900 11000 1 0 0
+{
+T 2000 11050 5 8 1 1 0 0 1
+pinnumber=F11
+T 2000 10950 5 8 0 1 0 2 1
+pinseq=7
+T 1850 11000 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK0P_216
+T 1850 11000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 10700 1900 10700 1 0 0
+{
+T 2000 10750 5 8 1 1 0 0 1
+pinnumber=E11
+T 2000 10650 5 8 0 1 0 2 1
+pinseq=8
+T 1850 10700 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK0N_216
+T 1850 10700 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 10400 1900 10400 1 0 0
+{
+T 2000 10450 5 8 1 1 0 0 1
+pinnumber=A9
+T 2000 10350 5 8 0 1 0 2 1
+pinseq=9
+T 1850 10400 9 8 1 1 0 6 1
+pinlabel=MGTPTXN2_216
+T 1850 10400 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 10100 1900 10100 1 0 0
+{
+T 2000 10150 5 8 1 1 0 0 1
+pinnumber=C10
+T 2000 10050 5 8 0 1 0 2 1
+pinseq=10
+T 1850 10100 9 8 1 1 0 6 1
+pinlabel=MGTPTXN3_216
+T 1850 10100 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 9800 1900 9800 1 0 0
+{
+T 2000 9850 5 8 1 1 0 0 1
+pinnumber=A11
+T 2000 9750 5 8 0 1 0 2 1
+pinseq=11
+T 1850 9800 9 8 1 1 0 6 1
+pinlabel=MGTPRXN0_216
+T 1850 9800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 9500 1900 9500 1 0 0
+{
+T 2000 9550 5 8 1 1 0 0 1
+pinnumber=C12
+T 2000 9450 5 8 0 1 0 2 1
+pinseq=12
+T 1850 9500 9 8 1 1 0 6 1
+pinlabel=MGTPRXN3_216
+T 1850 9500 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 9200 1900 9200 1 0 0
+{
+T 2000 9250 5 8 1 1 0 0 1
+pinnumber=A13
+T 2000 9150 5 8 0 1 0 2 1
+pinseq=13
+T 1850 9200 9 8 1 1 0 6 1
+pinlabel=MGTPRXN2_216
+T 1850 9200 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 8900 1900 8900 1 0 0
+{
+T 2000 8950 5 8 1 1 0 0 1
+pinnumber=C14
+T 2000 8850 5 8 0 1 0 2 1
+pinseq=14
+T 1850 8900 9 8 1 1 0 6 1
+pinlabel=MGTPRXN1_216
+T 1850 8900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 8600 1900 8600 1 0 0
+{
+T 2000 8650 5 8 1 1 0 0 1
+pinnumber=E13
+T 2000 8550 5 8 0 1 0 2 1
+pinseq=15
+T 1850 8600 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK1N_216
+T 1850 8600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 8300 1900 8300 1 0 0
+{
+T 2000 8350 5 8 1 1 0 0 1
+pinnumber=F13
+T 2000 8250 5 8 0 1 0 2 1
+pinseq=16
+T 1850 8300 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK1P_216
+T 1850 8300 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 8000 1900 8000 1 0 0
+{
+T 2000 8050 5 8 1 1 0 0 1
+pinnumber=D8
+T 2000 7950 5 8 0 1 0 2 1
+pinseq=17
+T 1850 8000 9 8 1 1 0 6 1
+pinlabel=MGTPTXP1_216
+T 1850 8000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 7700 1900 7700 1 0 0
+{
+T 2000 7750 5 8 1 1 0 0 1
+pinnumber=C8
+T 2000 7650 5 8 0 1 0 2 1
+pinseq=18
+T 1850 7700 9 8 1 1 0 6 1
+pinlabel=MGTPTXN1_216
+T 1850 7700 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 7400 1900 7400 1 0 0
+{
+T 2000 7450 5 8 1 1 0 0 1
+pinnumber=B7
+T 2000 7350 5 8 0 1 0 2 1
+pinseq=19
+T 1850 7400 9 8 1 1 0 6 1
+pinlabel=MGTPTXP0_216
+T 1850 7400 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 7100 1900 7100 1 0 0
+{
+T 2000 7150 5 8 1 1 0 0 1
+pinnumber=A7
+T 2000 7050 5 8 0 1 0 2 1
+pinseq=20
+T 1850 7100 9 8 1 1 0 6 1
+pinlabel=MGTPTXN0_216
+T 1850 7100 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 6800 1900 6800 1 0 0
+{
+T 2000 6850 5 8 1 1 0 0 1
+pinnumber=A15
+T 2000 6750 5 8 0 1 0 2 1
+pinseq=21
+T 1850 6800 9 8 1 1 0 6 1
+pinlabel=MGTRREF_216
+T 1850 6800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 6500 1900 6500 1 0 0
+{
+T 2000 6550 5 8 1 1 0 0 1
+pinnumber=AE7
+T 2000 6450 5 8 0 1 0 2 1
+pinseq=22
+T 1850 6500 9 8 1 1 0 6 1
+pinlabel=MGTPTXP3_213
+T 1850 6500 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 6200 1900 6200 1 0 0
+{
+T 2000 6250 5 8 1 1 0 0 1
+pinnumber=AF7
+T 2000 6150 5 8 0 1 0 2 1
+pinseq=23
+T 1850 6200 9 8 1 1 0 6 1
+pinlabel=MGTPTXN3_213
+T 1850 6200 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 5900 1900 5900 1 0 0
+{
+T 2000 5950 5 8 1 1 0 0 1
+pinnumber=AC8
+T 2000 5850 5 8 0 1 0 2 1
+pinseq=24
+T 1850 5900 9 8 1 1 0 6 1
+pinlabel=MGTPTXP2_213
+T 1850 5900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 5600 1900 5600 1 0 0
+{
+T 2000 5650 5 8 1 1 0 0 1
+pinnumber=AD8
+T 2000 5550 5 8 0 1 0 2 1
+pinseq=25
+T 1850 5600 9 8 1 1 0 6 1
+pinlabel=MGTPTXN2_213
+T 1850 5600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 5300 1900 5300 1 0 0
+{
+T 2000 5350 5 8 1 1 0 0 1
+pinnumber=AE9
+T 2000 5250 5 8 0 1 0 2 1
+pinseq=26
+T 1850 5300 9 8 1 1 0 6 1
+pinlabel=MGTPTXP1_213
+T 1850 5300 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 5000 1900 5000 1 0 0
+{
+T 2000 5050 5 8 1 1 0 0 1
+pinnumber=AC10
+T 2000 4950 5 8 0 1 0 2 1
+pinseq=27
+T 1850 5000 9 8 1 1 0 6 1
+pinlabel=MGTPTXP0_213
+T 1850 5000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 4700 1900 4700 1 0 0
+{
+T 2000 4750 5 8 1 1 0 0 1
+pinnumber=AE11
+T 2000 4650 5 8 0 1 0 2 1
+pinseq=28
+T 1850 4700 9 8 1 1 0 6 1
+pinlabel=MGTPRXP3_213
+T 1850 4700 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 4400 1900 4400 1 0 0
+{
+T 2000 4450 5 8 1 1 0 0 1
+pinnumber=AC12
+T 2000 4350 5 8 0 1 0 2 1
+pinseq=29
+T 1850 4400 9 8 1 1 0 6 1
+pinlabel=MGTPRXP0_213
+T 1850 4400 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 4100 1900 4100 1 0 0
+{
+T 2000 4150 5 8 1 1 0 0 1
+pinnumber=AE13
+T 2000 4050 5 8 0 1 0 2 1
+pinseq=30
+T 1850 4100 9 8 1 1 0 6 1
+pinlabel=MGTPRXP1_213
+T 1850 4100 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 3800 1900 3800 1 0 0
+{
+T 2000 3850 5 8 1 1 0 0 1
+pinnumber=AC14
+T 2000 3750 5 8 0 1 0 2 1
+pinseq=31
+T 1850 3800 9 8 1 1 0 6 1
+pinlabel=MGTPRXP2_213
+T 1850 3800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 3500 1900 3500 1 0 0
+{
+T 2000 3550 5 8 1 1 0 0 1
+pinnumber=AB13
+T 2000 3450 5 8 0 1 0 2 1
+pinseq=32
+T 1850 3500 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK0N_213
+T 1850 3500 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 3200 1900 3200 1 0 0
+{
+T 2000 3250 5 8 1 1 0 0 1
+pinnumber=AA13
+T 2000 3150 5 8 0 1 0 2 1
+pinseq=33
+T 1850 3200 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK0P_213
+T 1850 3200 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 2900 1900 2900 1 0 0
+{
+T 2000 2950 5 8 1 1 0 0 1
+pinnumber=AF9
+T 2000 2850 5 8 0 1 0 2 1
+pinseq=34
+T 1850 2900 9 8 1 1 0 6 1
+pinlabel=MGTPTXN1_213
+T 1850 2900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 2600 1900 2600 1 0 0
+{
+T 2000 2650 5 8 1 1 0 0 1
+pinnumber=AD10
+T 2000 2550 5 8 0 1 0 2 1
+pinseq=35
+T 1850 2600 9 8 1 1 0 6 1
+pinlabel=MGTPTXN0_213
+T 1850 2600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 2300 1900 2300 1 0 0
+{
+T 2000 2350 5 8 1 1 0 0 1
+pinnumber=AF11
+T 2000 2250 5 8 0 1 0 2 1
+pinseq=36
+T 1850 2300 9 8 1 1 0 6 1
+pinlabel=MGTPRXN3_213
+T 1850 2300 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 2000 1900 2000 1 0 0
+{
+T 2000 2050 5 8 1 1 0 0 1
+pinnumber=AD12
+T 2000 1950 5 8 0 1 0 2 1
+pinseq=37
+T 1850 2000 9 8 1 1 0 6 1
+pinlabel=MGTPRXN0_213
+T 1850 2000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 1700 1900 1700 1 0 0
+{
+T 2000 1750 5 8 1 1 0 0 1
+pinnumber=AF13
+T 2000 1650 5 8 0 1 0 2 1
+pinseq=38
+T 1850 1700 9 8 1 1 0 6 1
+pinlabel=MGTPRXN1_213
+T 1850 1700 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 1400 1900 1400 1 0 0
+{
+T 2000 1450 5 8 1 1 0 0 1
+pinnumber=AD14
+T 2000 1350 5 8 0 1 0 2 1
+pinseq=39
+T 1850 1400 9 8 1 1 0 6 1
+pinlabel=MGTPRXN2_213
+T 1850 1400 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 1100 1900 1100 1 0 0
+{
+T 2000 1150 5 8 1 1 0 0 1
+pinnumber=AA11
+T 2000 1050 5 8 0 1 0 2 1
+pinseq=40
+T 1850 1100 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK1P_213
+T 1850 1100 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 800 1900 800 1 0 0
+{
+T 2000 850 5 8 1 1 0 0 1
+pinnumber=AB11
+T 2000 750 5 8 0 1 0 2 1
+pinseq=41
+T 1850 800 9 8 1 1 0 6 1
+pinlabel=MGTREFCLK1N_213
+T 1850 800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2200 500 1900 500 1 0 0
+{
+T 2000 550 5 8 1 1 0 0 1
+pinnumber=AF15
+T 2000 450 5 8 0 1 0 2 1
+pinseq=42
+T 1850 500 9 8 1 1 0 6 1
+pinlabel=MGTRREF_213
+T 1850 500 5 8 0 1 0 8 1
+pintype=io
+}
+B 400 100 1500 13100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1900 13300 8 10 1 1 0 6 1
+refdes=U?
+T 400 13300 9 10 1 0 0 0 1
+xc7a100t-676
+T 400 13500 5 10 0 0 0 0 1
+device=xc7a100t-676
+T 400 13700 5 10 0 0 0 0 1
+description=fpga

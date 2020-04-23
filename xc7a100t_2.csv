@@ -1,0 +1,56 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	8100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+J11		pwr	line	r		VCCINT
+J13		pwr	line	r		VCCINT
+K10		pwr	line	r		VCCINT
+K12		pwr	line	r		VCCINT
+L11		pwr	line	r		VCCINT
+L13		pwr	line	r		VCCINT
+M10		pwr	line	r		VCCINT
+P10		pwr	line	r		VCCINT
+T10		pwr	line	r		VCCINT
+T12		pwr	line	r		VCCINT
+U11		pwr	line	r		VCCINT
+V10		pwr	line	r		VCCINT
+V12		pwr	line	r		VCCINT
+L9		pwr	line	r		VCCAUX
+N9		pwr	line	r		VCCAUX
+R9		pwr	line	r		VCCAUX
+U9		pwr	line	r		VCCAUX
+J9		pwr	line	r		VCCAUX
+N13		pwr	line	r		VCCBRAM
+R13		pwr	line	r		VCCBRAM
+U13		pwr	line	r		VCCBRAM
+W13		pwr	line	r		VCCBRAM

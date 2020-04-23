@@ -1,0 +1,56 @@
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"# """"PB1 (CLK)"""". That's useful for micro controller port labels"""						
+# rotate_labels rotates the pintext of top and bottom pins						
+# this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+# useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1500					
+sym_height	8100					
+pinwidthvertical	300					
+pinwidthhorizontal	300					
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	xc7a100t-676					
+device	xc7a100t-676					
+refdes	U?					
+footprint						
+description	fpga					
+documentation						
+						
+dist-license						
+use-license						
+
+
+
+[pins]
+D11		pwr	line	r		MGTAVCC_G11
+D13		pwr	line	r		MGTAVCC_G11
+D9		pwr	line	r		MGTAVCC_G11
+F10		pwr	line	r		MGTAVCC_G11
+F12		pwr	line	r		MGTAVCC_G11
+AA10		pwr	line	r		MGTAVCC_G10
+AA12		pwr	line	r		MGTAVCC_G10
+AC11		pwr	line	r		MGTAVCC_G10
+AC13		pwr	line	r		MGTAVCC_G10
+AC9		pwr	line	r		MGTAVCC_G10
+B10		pwr	line	r		MGTAVTT_G11
+B12		pwr	line	r		MGTAVTT_G11
+B14		pwr	line	r		MGTAVTT_G11
+B8		pwr	line	r		MGTAVTT_G11
+C15		pwr	line	r		MGTAVTT_G11
+C7		pwr	line	r		MGTAVTT_G11
+AD15		pwr	line	r		MGTAVTT_G10
+AD7		pwr	line	r		MGTAVTT_G10
+AE10		pwr	line	r		MGTAVTT_G10
+AE12		pwr	line	r		MGTAVTT_G10
+AE14		pwr	line	r		MGTAVTT_G10
+AE8		pwr	line	r		MGTAVTT_G10
